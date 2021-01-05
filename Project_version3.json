@@ -42,7 +42,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"name\":\"Lukas Radim Daněk\",\r\n\"email\": \"attemp21@seznam.cz\",\r\n\"gender\": \"Female\",\r\n\"status\": \"Active\"\r\n}",
+					"raw": "{\r\n\"name\":\"Lukas Radim Daněk\",\r\n\"email\": \"attemp21@seznam.cz\",\r\n\"gender\": \"Male\",\r\n\"status\": \"Active\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -182,6 +182,7 @@
 							"pm.environment.set(\"user_email\", responseBody.data.email);\r",
 							"//variable for verify, if the mail was really changed (but we'll need it in next step).\r",
 							"\r",
+							"// section 2 (verifying)\r",
 							"pm.test(\"Verify wanted user_name after changes\", function () {\r",
 							"    var jsonData = pm.response.json();\r",
 							"    pm.expect(jsonData.data.name).to.eql(pm.environment.get(\"user_name\"));\r",
