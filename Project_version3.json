@@ -42,7 +42,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"name\":\"Lukas Daněk\",\r\n\"email\": \"attemp20@seznam.cz\",\r\n\"gender\": \"Male\",\r\n\"status\": \"Active\"\r\n}",
+					"raw": "{\r\n\"name\":\"Lukas Radim Daněk\",\r\n\"email\": \"attemp21@seznam.cz\",\r\n\"gender\": \"Female\",\r\n\"status\": \"Active\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
